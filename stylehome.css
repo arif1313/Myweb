@@ -1,0 +1,181 @@
+<style>
+      
+body{
+ margin: 0;
+ padding: 0;
+}
+.bodyclass{
+position: relative;
+background-image: url('R.jpg');
+height: 100vh;
+background-repeat: repeat-x;
+background-size: cover;
+}
+
+.navigation1 a{
+position: relative;
+color:#fff;
+font-weight: 500;
+font-size: 1.1em; 
+margin-left: 40px;
+text-decoration: none;
+}
+.navigation1 a::after{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -6px;
+ width: 100%;
+ height: 3px;
+ background: #fff;
+ border-radius: 5px;
+ transform-origin: right;
+ transform: scaleX(0);
+ transition: transform .3s;
+
+
+}
+.navigation1 a:hover::after{
+ cursor: pointer;
+
+ transform: scaleX(1);
+}
+
+.home{
+color:red;
+}
+.header{
+ text-align: right;
+ padding-top: 50px;
+ padding-right: 50px;
+}
+
+
+
+.navigation1 a:active{
+color: red;
+font-weight: bolder;
+
+}
+
+.front-bio{
+ float: left;
+ padding-top: 50px;
+ width: 50%;
+ text-align: center;
+
+
+}
+.pic{
+float: right;
+width: 50%;
+
+text-align: center;
+}
+
+.headerimg{
+
+border: 5px solid green;
+border-radius: 50%;
+height: 100px;
+width: 100px;
+padding-top: 0%;
+
+}
+.homeimg{
+
+border: 5px solid red;
+border-radius: 50%;
+border-top: green;
+border-left: green;
+border-right: green;
+}
+
+h3{
+font-size: 30px;
+color:#fff;
+}
+h1 {
+color:#fff;
+overflow: hidden; 
+animation: typing 5s steps(30) infinite;
+white-space: nowrap; 
+
+}
+@keyframes typing {
+0% {
+width: 0;
+}
+100% {
+width: 100%;
+}
+}
+.divheder{
+text-align: left;
+width: 100px;
+height: 100px;
+float: left;
+margin-top: 0%;
+}
+
+.home_p{
+font-size: 30px;
+color:white;
+font-weight: bold;
+}
+.navigationicon a img{
+
+width: 30px;
+height: 30px;
+
+}
+.navigationicon a img:hover{
+
+}
+.navigationicon a img:active{
+border-radius: 50%;
+transform: translateY(30%);
+}
+.cvclass{
+background-color:purple ;
+height: 30px;
+width: 120px;
+position: initial;
+text-align: center;
+padding: 10px;
+margin: 50px;
+border-radius: 10px;
+
+
+}
+.cvclass a{
+color:navajowhite;
+text-decoration: none;
+font-size: 1.2em;
+font-weight: bold;
+}
+.cvclass:hover{
+background-color: slateblue;
+}
+.cvclass a:active{
+color:red;
+
+
+}
+.cvclass:active{
+animation-duration:.5s ;
+transform: translateY(5%);
+
+}
+
+
+.navigationicon{
+margin-left: 30px;
+
+}
+.navigationicon a img{
+margin-left: 20px;
+}
+
+
+</style>
